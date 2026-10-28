@@ -1,5 +1,6 @@
 # 🎓 Apex Coaching Institute Management System (v2.0)
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Dynamicloki/coachingManagement)
 [![PHP](https://img.shields.io/badge/PHP-8.3-777bb4.svg?style=flat-square&logo=php&logoColor=white)](https://www.php.net/)
 [![SQLite](https://img.shields.io/badge/Database-SQLite_3-003B57.svg?style=flat-square&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
 [![Three.js](https://img.shields.io/badge/3D_Graphics-Three.js_r128-black.svg?style=flat-square&logo=three.js&logoColor=white)](https://threejs.org/)
@@ -55,7 +56,24 @@ A modern, full-stack Coaching Academy Management platform featuring **Role-Based
 
 ## 🚀 Quickstart Guide
 
-### Prerequisites
+### Option 1: 🌐 Run Directly Inside GitHub (Codespaces) - *Zero Setup*
+You can run this dynamic PHP & SQLite application directly inside GitHub using GitHub Codespaces:
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Dynamicloki/coachingManagement)
+
+1. Click the **Open in GitHub Codespaces** button above (or on GitHub, click the green `<> Code` button → **Codespaces** tab → **Create codespace on main**).
+2. GitHub will launch an in-browser VS Code cloud environment with PHP 8.3 and SQLite pre-configured.
+3. Open the built-in terminal and run:
+   ```bash
+   php -S 0.0.0.0:8000
+   ```
+4. A notification popup will appear in the bottom-right corner saying: *"Your application running on port 8000 is available"*. Click **Open in Browser** to view the live website!
+
+---
+
+### Option 2: 💻 Run Locally On Your Machine
+
+#### Prerequisites
 - [PHP 8.0+](https://www.php.net/) with `pdo_sqlite` extension enabled.
 - Web browser with WebGL support.
 

@@ -1,0 +1,13 @@
+{
+  "name": "PHP & SQLite Coaching Management",
+  "image": "mcr.microsoft.com/devcontainers/php:1-8.3-bookworm",
+  "forwardPorts": [8000],
+  "portsAttributes": {
+    "8000": {
+      "label": "Apex Coaching App Preview",
+      "onAutoForward": "openBrowser"
+    }
+  },
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y php8.3-sqlite3 python3 && php -v",
+  "postAttachCommand": "php -S 0.0.0.0:8000"
+}
