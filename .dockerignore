@@ -1,0 +1,5 @@
+.git
+.devcontainer
+backups/*.json
+backups/*.sqlite
+*.md
