@@ -1,0 +1,9 @@
+# Local backup archives (generated per month)
+backups/*
+!backups/.htaccess
+!backups/.gitkeep
+
+# System & OS artifacts
+Thumbs.db
+.DS_Store
+*.tmp
