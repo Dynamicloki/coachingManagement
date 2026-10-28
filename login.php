@@ -81,19 +81,6 @@ include "includes/top.php";
           </button>
         </div>
       </form>
-
-      <!-- 1-Click Demo Credentials Quick Fill -->
-      <div class="mt-4 pt-3 border-top border-white-10 text-center">
-        <span class="text-white-50 small d-block mb-2">⚡ Quick 1-Click Demo Testing:</span>
-        <div class="d-flex justify-content-center gap-2 flex-wrap">
-          <button type="button" class="btn btn-outline-info btn-sm rounded-pill px-3" onclick="fillDemo('student@test.com', 'student123', 'student')">
-            <i class="bi bi-person-check me-1"></i> Demo Student
-          </button>
-          <button type="button" class="btn btn-outline-warning btn-sm rounded-pill px-3" onclick="fillDemo('admin', 'admin123', 'admin')">
-            <i class="bi bi-shield-check me-1"></i> Demo Admin
-          </button>
-        </div>
-      </div>
     </div>
 
     <!-- Back to Homepage Link -->
@@ -134,12 +121,6 @@ function switchLoginMode(mode) {
         input.placeholder = "e.g. student@test.com";
         submitBtn.innerText = "Sign In to Student Portal";
     }
-}
-
-function fillDemo(user, pass, mode) {
-    switchLoginMode(mode);
-    document.getElementById("loginInput").value = user;
-    document.getElementById("loginPassword").value = pass;
 }
 </script>
 
